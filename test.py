@@ -10,6 +10,7 @@ import base64
 import matplotlib
 import platform
 import os
+import matplotlib.font_manager as fm
 
 font_path = r"font/NanumGothic-Regular.ttf"
 
