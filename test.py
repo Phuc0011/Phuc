@@ -9,7 +9,16 @@ from PIL import Image
 import base64
 import matplotlib
 import platform
+font_path = "./NanumGothic.ttf"
 
+if not os.path.exists(font_path):
+    import urllib.request
+    urllib.request.urlretrieve(font_url, font_path)
+
+# Đăng ký font
+fm.fontManager.addfont(font_path)
+plt.rc('font', family='NanumGothic')
+plt.rcParams['axes.unicode_minus'] = False
 # 한글 폰트 설정
 if platform.system() == 'Windows':
     matplotlib.rc('font', family='Malgun Gothic')
