@@ -1,9 +1,7 @@
-
-streamlit 
+streamlit
 pandas
-matplotlib.pyplot
-seaborn
-Image
-base64
 matplotlib
-platform
+seaborn
+scikit-learn
+beautifulsoup4
+requests
