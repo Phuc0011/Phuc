@@ -9,6 +9,8 @@ from PIL import Image
 import base64
 import matplotlib
 import platform
+import os
+
 font_path = r"font/NanumGothic-Regular.ttf"
 
 if not os.path.exists(font_path):
