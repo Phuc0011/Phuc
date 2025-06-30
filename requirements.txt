@@ -2,6 +2,5 @@ streamlit
 pandas
 matplotlib
 seaborn
+pillow
 scikit-learn
-beautifulsoup4
-requests
